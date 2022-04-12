@@ -1,17 +1,14 @@
 public class IOSAppFactory implements AbstractAppFactory {
     @Override
     public Calendar createCalendar() {
-        // TODO Auto-generated method stub
-        return null;
+        return new CalendarIOS("Calendario iOS", "1.0.0.i");
     }
     @Override
     public Clock createClock() {
-        // TODO Auto-generated method stub
-        return null;
+        return new ClockIOS("Reloj iOS", "1.0.0.i", "GTM-4");
     }
     @Override
     public Phone createPhone() {
-        // TODO Auto-generated method stub
-        return null;
+        return new PhoneIOS("Telefono iOS", "1.0.0.i");
     }
 }

@@ -1,17 +1,14 @@
 public class AndroidAppFactory implements AbstractAppFactory {
     @Override
     public Calendar createCalendar() {
-        // TODO Auto-generated method stub
-        return null;
+        return new CalendarAdroid("Calendario Android", "1.0.0.A");
     }
     @Override
     public Clock createClock() {
-        // TODO Auto-generated method stub
-        return null;
+        return new ClockAndroid("Reloj Android", "1.0.0.A", "GTM-4");
     }
     @Override
     public Phone createPhone() {
-        // TODO Auto-generated method stub
-        return null;
+        return new PhoneAndroid("Telefono Android", "1.0.0.A");
     }
 }
