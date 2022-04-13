@@ -9,6 +9,7 @@ public class TestMain {
 
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
-        System.out.println("Ingrese");
+        System.out.println("Ingrese la temperatura en Grados Fahrenhiet: ");
+        String leido = lector.nextLine();        
     }
 }
